@@ -604,9 +604,7 @@ a:link {
     -webkit-overflow-scrolling: touch;
   }
 }
-</style>
-<style id="style_page" type="text/css">
-body {
+</style > <style id="style_page" type="text/css" > body {
   direction: ltr;
 }
 @media (min-width: 768px) {
@@ -632,9 +630,12 @@ body {
 body {
   font-family: UXVlcRyaWFsLVJlZVsYXIudHRm;
 }
-</style>
-<style id="style_element" type="text/css">
-#SECTION1 > .ladi-section-background,
+</style
+  > <style
+  id="style_element"
+  type="text/css"
+  > #SECTION1
+  > .ladi-section-background,
 #SECTION4 > .ladi-section-background {
   background-size: cover;
   background-origin: content-box;
@@ -870,7 +871,7 @@ body {
   width: 297px;
   height: 297px;
 }
-#IMAGE6 > .ladi-image > .ladi-image-background{
+#IMAGE6 > .ladi-image > .ladi-image-background {
   background-image: url("/image/ngoc.png");
 }
 #IMAGE7 > .ladi-image > .ladi-image-background {
@@ -1419,13 +1420,13 @@ body {
     width: 269px;
   }
   #GROUP18 {
-    top: 457.9px;
+    top: 470px;
     left: 265.692px;
   }
   #GROUP21 {
     width: 269px;
     height: 102px;
-    top: 457.9px;
+    top: 470px;
     left: 665.308px;
   }
   #SECTION5 {
@@ -1488,7 +1489,7 @@ body {
     width: 277.333px;
     height: 416px;
   }
-  #IMAGE9 > .ladi-image > .ladi-image-background{
+  #IMAGE9 > .ladi-image > .ladi-image-background {
     background-image: url("/image/khoang-khac-1.jpg");
   }
   #IMAGE16 > .ladi-image > .ladi-image-background {
@@ -1673,7 +1674,7 @@ body {
   #BOX8,
   #GROUP15,
   #BOX9 {
-    width: 501px;
+    width: 520px;
   }
   #GROUP14 {
     top: 68.561px;
@@ -1681,7 +1682,7 @@ body {
   }
   #PARAGRAPH33,
   #PARAGRAPH34 {
-    width: 368px;
+    width: 395px;
   }
   #GROUP15 {
     top: 340.061px;
@@ -1689,7 +1690,7 @@ body {
   }
   #HTML_CODE1,
   #HTML_CODE2 {
-    width: 501px;
+    width: 520px;
     height: 123px;
   }
   #HTML_CODE1 {
@@ -2439,5 +2440,3 @@ body {
     background-image: url("https://w.ladicdn.com/s550x450/5e51ff6161a254079fc6d2ed/2023-1311-20231009123126-gqhgr.png");
   }
 }
-
-
