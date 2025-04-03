@@ -234,8 +234,8 @@
   width: 297px;
   height: 297px;
 }
-#IMAGE6 > .ladi-image > .ladi-image-background{
-background-image: url("./image/ngoc.png");
+#IMAGE6 > .ladi-image > .ladi-image-background {
+  background-image: url("./image/ngoc.png");
 }
 #IMAGE7 > .ladi-image > .ladi-image-background {
   background-image: url("./image/quan.png");
@@ -328,11 +328,11 @@ background-image: url("./image/ngoc.png");
   transform: scale(1.06);
   opacity: 1;
 }
-#IMAGE18 > .ladi-image > .ladi-image-background{
-background-image: url("./image/xe-buyt.png");
+#IMAGE18 > .ladi-image > .ladi-image-background {
+  background-image: url("./image/xe-buyt.png");
 }
-#IMAGE19 > .ladi-image > .ladi-image-background{
-background-image: url("./image/ngay-dau.jpg");
+#IMAGE19 > .ladi-image > .ladi-image-background {
+  background-image: url("./image/ngay-dau.jpg");
 }
 #IMAGE20 > .ladi-image > .ladi-image-background {
   background-image: url("./image/khoang-khac-7.jpg");
@@ -446,7 +446,7 @@ background-image: url("./image/ngay-dau.jpg");
 #IMAGE28,
 #IMAGE29 {
   top: 18.8252px;
-  left: 27.001px;
+  left: 10px;
 }
 #IMAGE28 > .ladi-image > .ladi-image-background,
 #IMAGE29 > .ladi-image > .ladi-image-background {
@@ -856,7 +856,7 @@ background-image: url("./image/ngay-dau.jpg");
     width: 277.333px;
     height: 416px;
   }
-  #IMAGE9 > .ladi-image > .ladi-image-background{
+  #IMAGE9 > .ladi-image > .ladi-image-background {
     background-image: url("./image/khoang-khac-1.jpg");
   }
   #IMAGE16 > .ladi-image > .ladi-image-background {
@@ -1049,7 +1049,7 @@ background-image: url("./image/ngay-dau.jpg");
   }
   #PARAGRAPH33,
   #PARAGRAPH34 {
-    width: 368px;
+    width: 400px;
   }
   #GROUP15 {
     top: 340.061px;
@@ -1526,7 +1526,7 @@ background-image: url("./image/ngay-dau.jpg");
     width: 198.096px;
     height: 297.145px;
   }
-  #IMAGE9 > .ladi-image > .ladi-image-background{
+  #IMAGE9 > .ladi-image > .ladi-image-background {
     background-image: url("./image/khoang-khac-1.jpg");
   }
   #IMAGE16 > .ladi-image > .ladi-image-background {
@@ -1810,113 +1810,116 @@ background-image: url("./image/ngay-dau.jpg");
   }
 }
 
-
-
-.curtainn{
+.curtainn {
   position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-    z-index: 9999;
-    transition: all 1s ease;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  z-index: 9999;
+  transition: all 1s ease;
 }
 .curtain-leftt {
   width: 105%;
-    left: -184px;
-    background-image: url('./image/curtain-left.png'); /* Đặt đường dẫn đến ảnh curtain trái của bạn */
+  left: -184px;
+  background-image: url("./image/curtain-left.png"); /* Đặt đường dẫn đến ảnh curtain trái của bạn */
 }
 
 .curtain-rightt {
   width: 105%;
-    right: -184px;
-    background-image: url('./image/curtain-right.png'); /* Đặt đường dẫn đến ảnh curtain phải của bạn */
+  right: -184px;
+  background-image: url("./image/curtain-right.png"); /* Đặt đường dẫn đến ảnh curtain phải của bạn */
 }
 
 /* Animation */
 @keyframes openCurtainRight {
-    0% {
-        right: 0;
-    }
-    50%{
-      right:-50%;
-    }
-    100% {
-        right: -100%;
-    }
+  0% {
+    right: 0;
+  }
+  50% {
+    right: -50%;
+  }
+  100% {
+    right: -100%;
+  }
 }
-@keyframes openCurtainLeft{
-   0% {
-        left: 0;
-    }
-    50%{
-      left: -50%;
-    }
-    100% {
-        left: -100%;
-    }
+@keyframes openCurtainLeft {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -50%;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
-.open .curtain-leftt{
- animation: openCurtainLeft 1s forwards;
+.open .curtain-leftt {
+  animation: openCurtainLeft 1s forwards;
 }
 .open .curtain-rightt {
-    animation: openCurtainRight 1s forwards ;
-}
-   
-
-/* Responsive Styles */
-@media (max-width: 1024px) { /* iPad Landscape & Smaller Screens */
-    .curtainn {
-        width: 50%;
-    }
-    .curtain-leftt {
-        background-position: center;
-    }
-    .curtain-rightt {
-        background-position: center;
-    }
-}
-
-@media (max-width: 768px) { /* Tablet Portrait & Mobile Devices */
-    .curtainn {
-        width: 50%;
-    }
-
-    .curtain-leftt, .curtain-rightt {
-        background-size: contain; /* Làm cho ảnh curtain phù hợp hơn với màn hình nhỏ */
-        background-position: center;
-    }
-}
-
-@media (max-width: 480px) { /* Small Mobile Screens */
-    .curtainn {
-        width: 100%;
-    }
-
-    .curtain-leftt, .curtain-rightt {
-        width: 50%;
-        background-size: contain;
-        background-position: center;
-    }
+  animation: openCurtainRight 1s forwards;
 }
 
 /* Responsive Styles */
-@media (max-width: 1024px) { /* iPad Landscape & Smaller Screens */
-    .curtainn {
-        width: 50%;
-    }
-    .curtain-leftt {
-        width: 77%;
+@media (max-width: 1024px) {
+  /* iPad Landscape & Smaller Screens */
+  .curtainn {
+    width: 50%;
+  }
+  .curtain-leftt {
+    background-position: center;
+  }
+  .curtain-rightt {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Tablet Portrait & Mobile Devices */
+  .curtainn {
+    width: 50%;
+  }
+
+  .curtain-leftt,
+  .curtain-rightt {
+    background-size: contain; /* Làm cho ảnh curtain phù hợp hơn với màn hình nhỏ */
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Small Mobile Screens */
+  .curtainn {
+    width: 100%;
+  }
+
+  .curtain-leftt,
+  .curtain-rightt {
+    width: 50%;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  /* iPad Landscape & Smaller Screens */
+  .curtainn {
+    width: 50%;
+  }
+  .curtain-leftt {
+    width: 77%;
     margin-top: -146px;
     left: -15px;
     height: 130%;
-    }
-    .curtain-rightt {
-       width: 77%;
-        margin-top: -146px;
-        height: 130%;
-        right: -12px;
-    }
+  }
+  .curtain-rightt {
+    width: 77%;
+    margin-top: -146px;
+    height: 130%;
+    right: -12px;
+  }
 }
