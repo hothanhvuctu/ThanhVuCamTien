@@ -1176,7 +1176,7 @@
     border-radius: 12px;
   }
   #SECTION1 > .ladi-section-background {
-    background-image: url("./image/hinh-top-1.png");
+    background-image: url("./image/hinh-top-2.JPG");
   }
   #PARAGRAPH1,
   #PARAGRAPH6,
@@ -1259,7 +1259,7 @@
     left: 3.80365px;
   }
   #IMAGE1 > .ladi-image > .ladi-image-background {
-    background-image: url("./image/hinh-2-1.png");
+    background-image: url("./image/khoanh-khac-9-1.JPG");
   }
   #GROUP19 {
     width: 420px;
@@ -1319,7 +1319,7 @@
   }
   #IMAGE4 {
     top: 231.129px;
-    left: 210.449px;
+    left: 200px;
   }
   #IMAGE4 > .ladi-image > .ladi-image-background,
   #IMAGE36 > .ladi-image > .ladi-image-background {
@@ -1447,8 +1447,9 @@
     left: 47px;
   }
   #PARAGRAPH54 {
-    top: 416.251px;
-    left: 45.0461px;
+    top: 400px;
+    left: 10px;
+    width: 390px;
   }
   #PARAGRAPH54 > .ladi-paragraph,
   #PARAGRAPH39 > .ladi-paragraph,
