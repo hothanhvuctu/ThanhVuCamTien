@@ -434,7 +434,7 @@
 #PARAGRAPH33,
 #PARAGRAPH34 {
   top: 13.5px;
-  left: 116px;
+  left: 100px;
 }
 #IMAGE28,
 #IMAGE28 > .ladi-image > .ladi-image-background,
@@ -1036,7 +1036,8 @@
     left: 105.115px;
   }
   #IMAGE21 > .ladi-image > .ladi-image-background {
-    background-image: url("./image/dep.png");
+    background-image: url("./image/khoanh-khac-2.jpg");
+    background-position: center;
   }
   #GROUP14,
   #BOX8,
