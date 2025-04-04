@@ -564,6 +564,7 @@
   }
   #IMAGE1 > .ladi-image > .ladi-image-background {
     background-image: url("./image/khoanh-khac-9.JPG");
+    background-position: center;
   }
   #GROUP19 {
     width: 653px;
