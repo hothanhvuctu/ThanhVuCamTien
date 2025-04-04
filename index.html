@@ -412,15 +412,40 @@
 
   <body class="">
     <div>
-      <audio autoplay loop muted>
+      <audio id="weddingAudio" autoplay loop>
         <source
-          src="https://hothanhvuctu.github.io/ThanhVuCamTien/image/nhac.mp3"
+          src="./image/BeautifulInWhite-ShaneFilan-524801.mp3"
           type="audio/mp3"
         />
       </audio>
-      <!-- <audio autoplay>
-        <source src="./image/BeautifulInWhite-ShaneFilan-524801.mp3" type="audio/mp3">
-    </audio> -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var audio = document.getElementById("weddingAudio");
+
+          function tryPlayAudio() {
+            audio.play().catch(function (error) {
+              console.log(
+                "Auto-play was prevented. Please click play manually."
+              );
+              setTimeout(tryPlayAudio, 100);
+            });
+          }
+
+          tryPlayAudio();
+
+          document.addEventListener("click", function () {
+            audio.play();
+          });
+
+          document.addEventListener("touchstart", function () {
+            audio.play();
+          });
+
+          document.addEventListener("keydown", function () {
+            audio.play();
+          });
+        });
+      </script>
     </div>
     <!-- <div class="curtainn curtain-leftt"></div>
   <div class="curtainn curtain-rightt"></div> -->
