@@ -1159,6 +1159,22 @@
   #SECTION1 {
     height: 337.919px;
   }
+  .box-khoanh-khac {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: absolute;
+    top: 230px;
+    justify-content: center;
+  }
+  .box-khoanh-khac div {
+    width: calc(100% / 2 - 10px);
+  }
+  .box-khoanh-khac div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
   #SECTION1 > .ladi-section-background {
     background-image: url("./image/hinh-top-1.png");
   }
@@ -1457,7 +1473,7 @@
     left: 224.799px;
   }
   #SECTION5 {
-    height: 1479.91px;
+    height: 1200px;
   }
   #GROUP5 {
     width: 420px;
@@ -1691,13 +1707,14 @@
     left: 76.0155px;
   }
   #IMAGE21 > .ladi-image > .ladi-image-background {
-    background-image: url("https://w.ladicdn.com/s600x550/5e51ff6161a254079fc6d2ed/ban-sao-cua-anh-cuoi-klxtqs-2-300x267-1-20231009140935-cor7b.png");
+    background-image: url("./image/khoanh-khac-2.jpg");
   }
   #GROUP14,
   #BOX8,
   #GROUP15,
   #BOX9 {
     width: 364px;
+    height: 130px;
   }
   #GROUP14 {
     top: 452.665px;
@@ -1705,7 +1722,7 @@
   }
   #PARAGRAPH33,
   #PARAGRAPH34 {
-    width: 235px;
+    width: 245px;
   }
   #GROUP15 {
     top: 787.665px;
@@ -1717,11 +1734,11 @@
     height: 187px;
   }
   #HTML_CODE1 {
-    top: 579.432px;
+    top: 592px;
     left: 25px;
   }
   #HTML_CODE2 {
-    top: 916.432px;
+    top: 930px;
     left: 25px;
   }
   #SECTION8 {
