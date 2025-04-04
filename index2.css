@@ -235,10 +235,10 @@
   height: 297px;
 }
 #IMAGE6 > .ladi-image > .ladi-image-background {
-  background-image: url("./image/ngoc.png");
+  background-image: url("./image/CAM-TIEN.png");
 }
 #IMAGE7 > .ladi-image > .ladi-image-background {
-  background-image: url("./image/quan.png");
+  background-image: url("./image/THANH-VU.png");
 }
 #IMAGE6.ladi-animation > .ladi-image {
   animation-name: fadeInLeft;
@@ -757,7 +757,7 @@
   }
   #IMAGE36 {
     top: 264.199px;
-    left: 585.5px;
+    left: 575px;
   }
   #IMAGE37 {
     top: 14px;
